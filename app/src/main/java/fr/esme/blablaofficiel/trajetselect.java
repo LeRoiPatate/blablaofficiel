@@ -49,14 +49,14 @@ public class trajetselect extends AppCompatActivity /*implements View.OnClickLis
             }
         });
 
-        btnMaps = (Button) findViewById(R.id.button);
 
+        this.btnMaps = (Button) findViewById(R.id.btnMaps);
         btnMaps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent();
-                intent.setClass(getApplicationContext(),trajetselect.class);
-                startActivity(intent);
+                Intent otherActivity = new Intent(getApplicationContext(), MapsActivity2.class);
+                startActivity(otherActivity);
+                finish();
             }
         });
     }
