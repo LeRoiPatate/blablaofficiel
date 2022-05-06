@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.138" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/drawable/ic_launcher_background.xml" value="0.138" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/activity_changer_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/activity_confirmation_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/activity_confirmer_mdp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/activity_detail_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/activity_trajet_dispo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/activity_trajetselect.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/activity_whitets.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/fragment_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/fragment_publier.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/fragment_recherche.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/fragment_reglages.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/layout/fragment_tableaudebord.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.138" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/backup/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.138" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaESME/app/src/main/res/layout/activity_maps.xml" value="0.2717391304347826" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaESME/app/src/main/res/layout/activity_trajet_dispo.xml" value="0.1337386018237082" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaESME/app/src/main/res/layout/activity_trajetselect.xml" value="0.264" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaESME/app/src/main/res/layout/activity_whitets.xml" value="0.2717391304347826" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaESME/app/src/main/res/layout/fragment_publier.xml" value="0.1337386018237082" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/activity_changer_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/activity_confirmation_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/activity_confirmer_mdp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/activity_detail_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/activity_trajet_dispo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/activity_trajetselect.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/fragment_contact.xml" value="0.1" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/fragment_publier.xml" value="0.1" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/fragment_recherche.xml" value="0.152" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/fragment_reglages.xml" value="0.176" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel/app/src/main/res/layout/fragment_tableaudebord.xml" value="0.1" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/activity_changer_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/activity_confirmation_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/activity_confirmer_mdp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/activity_detail_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/activity_trajet_dispo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/activity_trajetselect.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/fragment_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/fragment_publier.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/fragment_recherche.xml" value="0.176" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/fragment_reglages.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blablaofficiel2/app/src/main/res/layout/fragment_tableaudebord.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1345" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1345" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/activity_changer_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/activity_confirmation_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/activity_confirmer_mdp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/activity_detail_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/activity_trajet_dispo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/activity_trajetselect.xml" value="0.2" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/activity_whitets.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/fragment_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/fragment_publier.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/fragment_recherche.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/fragment_reglages.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/thoma/AndroidStudioProjects/blatest/app/src/main/res/layout/fragment_tableaudebord.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

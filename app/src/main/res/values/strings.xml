@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">blablaofficiel</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="joindre">Joindre le conducteur</string>
+    <string name="espace_mdp">*********</string>
+    <string name="espace_nmdp">*********</string>
+    <string name="confirmer_nmdp">*********</string>
+    <string name="changer_email">ex:nomprenom@gmail.com</string>
+    <string name="ex_trajet">récapitulatif du trajet</string>
+    <string name="recapi_trajet">récapitulatif du trajet</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
