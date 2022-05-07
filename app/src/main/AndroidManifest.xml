@@ -9,12 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Blablaofficiel">
-        <activity
-            android:name=".Crea_compte"
-            android:exported="false" />
-        <activity
-            android:name=".Connexion"
-            android:exported="false" />
+
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -54,7 +49,13 @@
             android:exported="true" />
         <activity
             android:name=".activity_whitets"
-            android:exported="true">
+            android:exported="true" />
+        <activity
+            android:name=".Crea_compte"
+            android:exported="false" />
+        <activity
+            android:name=".Connexion"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

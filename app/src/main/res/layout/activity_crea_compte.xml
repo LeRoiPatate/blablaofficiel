@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Crea_compte">
 
+
     <TextView
         android:id="@+id/Tite"
         android:layout_width="wrap_content"
