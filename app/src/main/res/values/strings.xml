@@ -9,4 +9,5 @@
     <string name="ex_trajet">récapitulatif du trajet</string>
     <string name="recapi_trajet">récapitulatif du trajet</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
 </resources>

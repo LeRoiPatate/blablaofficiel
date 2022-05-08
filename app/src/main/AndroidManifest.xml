@@ -26,9 +26,9 @@
             android:value="YOUR_API_KEY" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".MapsActivity2"
             android:exported="false"
-            android:label="@string/title_activity_maps" />
+            android:label="@string/title_activity_maps2" />
         <activity
             android:name=".trajetselect"
             android:exported="true" />
