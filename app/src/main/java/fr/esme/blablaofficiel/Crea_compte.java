@@ -69,7 +69,7 @@ public class Crea_compte extends AppCompatActivity {
             editEmail.requestFocus();
         }
         else if(TextUtils.isEmpty(password)){
-            editMDP.setError("Le champ 'Mot de passe ne peut pas être vide");
+            editMDP.setError("Le champ 'Mot de passe' ne peut pas être vide");
             editMDP.requestFocus();
         }
         else{
@@ -103,7 +103,7 @@ public class Crea_compte extends AppCompatActivity {
         FirebaseUser user = mAuth.getCurrentUser();
         String uid = user.getUid();
         // adding our data to our users object class.
-        Utilisateur userModel = new Utilisateur(uid,email);
+        Utilisateur userModel = new Utilisateur(email,uid);
 
         // below method is use to add data to Firebase Firestore.
         dbUser.document(uid).set(userModel).addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -124,7 +124,7 @@ public class Crea_compte extends AppCompatActivity {
     private void ProfileUser(){
         String nom = editNom.getText().toString();
         String prenom = editPrenom.getText().toString();
-        String tel = editTelephone.getText().toString();
+        String numtel = editTelephone.getText().toString();
 
         FirebaseUser user = mAuth.getCurrentUser();
         String uid = user.getUid();
@@ -137,7 +137,7 @@ public class Crea_compte extends AppCompatActivity {
             editNom.setError("LenomEditText champ 'Nom' ne peut pas être vide");
             editNom.requestFocus();
         }
-        else if(TextUtils.isEmpty(tel)){
+        else if(TextUtils.isEmpty(numtel)){
             editTelephone.setError("Le champ 'Numéro de téléphone' ne peut pas être vide");
             editTelephone.requestFocus();
         }
@@ -145,7 +145,7 @@ public class Crea_compte extends AppCompatActivity {
             DocumentReference docRef = db.collection("Users").document(uid);
 
             docRef
-                    .update("prenom", prenom,"nom",nom,"numtel",tel)
+                    .update("prenom", prenom,"nom",nom,"numtel",numtel)
                     .addOnSuccessListener(new OnSuccessListener<Void>() {
                         @Override
                         public void onSuccess(Void aVoid) {

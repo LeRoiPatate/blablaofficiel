@@ -36,15 +36,6 @@
             android:name=".Activity_trajet_dispo"
             android:exported="true" />
         <activity
-            android:name=".Activity_changer_email"
-            android:exported="true" />
-        <activity
-            android:name=".Activity_confirmation_email"
-            android:exported="true" />
-        <activity
-            android:name=".Activity_confirmer_mdp"
-            android:exported="true" />
-        <activity
             android:name=".activity_detail_contact"
             android:exported="true" />
         <activity

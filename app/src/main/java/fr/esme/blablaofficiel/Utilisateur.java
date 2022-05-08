@@ -19,6 +19,6 @@ public class Utilisateur {
 
     public void setPrenom(String prenom){this.prenom=prenom;}
     public void setNom(String nom){this.nom=nom;}
-    public void setTel(String tel){this.numtel=tel;}
+    public void setTel(String numtel){this.numtel=numtel;}
     public void setEmail(String email) {this.email = email;}
 }
