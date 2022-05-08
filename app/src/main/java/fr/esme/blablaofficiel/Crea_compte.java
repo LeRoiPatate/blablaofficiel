@@ -69,7 +69,7 @@ public class Crea_compte extends AppCompatActivity {
             editEmail.requestFocus();
         }
         else if(TextUtils.isEmpty(password)){
-            editMDP.setError("Le champ 'Mot de passe ne peut pas être vide");
+            editMDP.setError("Le champ 'Mot de passe' ne peut pas être vide");
             editMDP.requestFocus();
         }
         else{

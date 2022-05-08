@@ -29,7 +29,7 @@ public class ReglagesFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_reglages, container, false);
 
         mAuth = FirebaseAuth.getInstance();
-        db = FirebaseFirestore.getInstance();
+
 
         // Deconnexion
         this.deconnexion = v.findViewById(R.id.deconnexion);
@@ -41,14 +41,6 @@ public class ReglagesFragment extends Fragment {
                 startActivity(i);
             }
         });
-
-
-        this.nom=v.findViewById(R.id.nom);
-        this.prenom=v.findViewById(R.id.prenom);
-        this.numtel=v.findViewById(R.id.numtel);
-        this.modifmail=v.findViewById(R.id.modifmail);
-        this.confmodif=v.findViewById(R.id.confmodif);
-
 
         return v;
 
