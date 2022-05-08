@@ -103,7 +103,7 @@ public class Crea_compte extends AppCompatActivity {
         FirebaseUser user = mAuth.getCurrentUser();
         String uid = user.getUid();
         // adding our data to our users object class.
-        Utilisateur userModel = new Utilisateur(uid,email);
+        Utilisateur userModel = new Utilisateur(email,uid);
 
         // below method is use to add data to Firebase Firestore.
         dbUser.document(uid).set(userModel).addOnSuccessListener(new OnSuccessListener<Void>() {
