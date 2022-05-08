@@ -15,6 +15,7 @@ public class PublierFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_publier, container, false);
+
         Button publier = v.findViewById(R.id.publier);
         publier.setOnClickListener(new View.OnClickListener() {
             @Override
