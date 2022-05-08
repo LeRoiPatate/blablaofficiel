@@ -25,11 +25,25 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:background="@color/teal_200"
-        android:text="recap contact"
+        android:text="adresse e-mail"
         android:textColor="@color/black"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomprenom" />
+
+    <TextView
+        android:id="@+id/recapcontact2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:background="@color/teal_200"
+        android:text="numéro de téléphone"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nomprenom" />
 
