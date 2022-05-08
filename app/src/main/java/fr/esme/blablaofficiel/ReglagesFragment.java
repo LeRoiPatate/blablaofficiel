@@ -16,23 +16,9 @@ public class ReglagesFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View v = inflater.inflate(R.layout.fragment_reglages, container, false);
-        Button modifmdp = v.findViewById(R.id.modifmdp);
-        modifmdp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i= new Intent(getActivity(), Activity_confirmer_mdp.class);
-                startActivity(i);
-            }
-        });
 
-        Button modifmail = v.findViewById(R.id.modifmail);
-        modifmail.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i= new Intent(getActivity(), Activity_changer_email.class);
-                startActivity(i);
-            }
-        });
+
+
 
         return v;
 
