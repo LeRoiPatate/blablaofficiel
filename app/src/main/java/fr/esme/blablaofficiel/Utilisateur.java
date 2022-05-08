@@ -1,7 +1,7 @@
 package fr.esme.blablaofficiel;
 
 public class Utilisateur {
-    private String tel;
+    private String numtel;
     private String prenom;
     private String nom;
     private String email;
@@ -14,11 +14,11 @@ public class Utilisateur {
 
     public String getPrenom(){return prenom;}
     public String getNom(){return nom;}
-    public String getTel(){return tel;}
+    public String getTel(){return numtel;}
     public String getEmail() { return email; }
 
     public void setPrenom(String prenom){this.prenom=prenom;}
     public void setNom(String nom){this.nom=nom;}
-    public void setTel(String tel){this.tel=tel;}
+    public void setTel(String tel){this.numtel=tel;}
     public void setEmail(String email) {this.email = email;}
 }

@@ -31,11 +31,7 @@ public class Crea_compte extends AppCompatActivity {
     private FirebaseAuth mAuth;
     FirebaseFirestore db;
 
-    private EditText editEmail;
-    private EditText editMDP;
-    private EditText editNom;
-    private EditText editPrenom;
-    private EditText editTelephone;
+    private EditText editEmail, editMDP, editNom, editPrenom, editTelephone;
 
     private Button creecompte;
 
@@ -96,7 +92,7 @@ public class Crea_compte extends AppCompatActivity {
 
     @Override
     public void onBackPressed(){
-        startActivity(new Intent(getApplicationContext(), activity_whitets.class));
+        startActivity(new Intent(getApplicationContext(), Connexion.class));
         finish();
     }
 

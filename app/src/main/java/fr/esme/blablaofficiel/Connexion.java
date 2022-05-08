@@ -18,11 +18,8 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Connexion extends AppCompatActivity {
 
-    private EditText editEmail;
-    private EditText editMDP;
-    private Button crea_compte;
-
-    private Button login;
+    private EditText editEmail, editMDP;
+    private Button crea_compte, login;
 
     private FirebaseAuth mAuth;
 

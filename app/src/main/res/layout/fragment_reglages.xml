@@ -21,13 +21,13 @@
         app:layout_constraintVertical_bias="0.1" />
 
     <EditText
-        android:id="@+id/identifiant"
+        android:id="@+id/nom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Identifiant"
+        android:text="Nom"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -35,18 +35,33 @@
         app:layout_constraintTop_toBottomOf="@+id/tvreglages" />
 
     <EditText
-        android:id="@+id/numtel"
+        android:id="@+id/prenom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:text="Prenom"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nom" />
+
+
+    <EditText
+        android:id="@+id/numtel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="phone"
         android:text="Numéro de télephone"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/identifiant" />
+        app:layout_constraintTop_toBottomOf="@+id/prenom" />
 
     <Button
         android:id="@+id/deconnexion"
@@ -58,33 +73,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/modifmdp" />
-
-    <Button
-        android:id="@+id/modifmdp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:backgroundTint="@color/white"
-        android:text="Mot de passe"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/modifmail" />
 
-    <Button
+
+
+    <EditText
         android:id="@+id/modifmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:backgroundTint="@color/white"
-        android:text="Adresse e-mail"
-        android:textColor="@color/black"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Adresse E-Mail"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numtel" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
