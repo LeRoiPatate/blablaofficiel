@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class trajetselect extends AppCompatActivity /*implements View.OnClickListener*/ {
+public class trajetselect extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnMaps;
     private Button confirmerts;
@@ -59,5 +59,10 @@ public class trajetselect extends AppCompatActivity /*implements View.OnClickLis
                 finish();
             }
         });
+    }
+
+    @Override
+    public void onClick(View view) {
+
     }
 }
