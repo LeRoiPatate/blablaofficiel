@@ -1,8 +1,8 @@
 package fr.esme.blablaofficiel;
 
-import androidx.fragment.app.FragmentActivity;
-
 import android.os.Bundle;
+
+import androidx.fragment.app.FragmentActivity;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -18,6 +18,9 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
     private GoogleMap mMap;
     private ActivityMaps2Binding binding;
 
+    MarkerOptions marker;
+    LatLng centerlocation;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +32,12 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        centerlocation = new LatLng(44.866,-0.575);
+
+        marker = new MarkerOptions().title("ESME-Bordeaux")
+                .position(new LatLng(44.866012, -0.574885))
+                .snippet("Ouvert du lundi au vendredi de 7h30 à 20h30");
     }
 
     /**
@@ -44,9 +53,8 @@ public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallbac
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        mMap.addMarker(marker);
+
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(centerlocation,12));
     }
 }
